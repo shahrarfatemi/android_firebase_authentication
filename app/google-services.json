@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "433063689461",
+    "firebase_url": "https://fire-login-18683.firebaseio.com",
+    "project_id": "fire-login-18683",
+    "storage_bucket": "fire-login-18683.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:433063689461:android:3685674320470b221959bc",
+        "android_client_info": {
+          "package_name": "com.example.firelogin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "433063689461-lrcmrntvtr810n2brbmlpqcp4njsegai.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.firelogin",
+            "certificate_hash": "d55556f6e6d32fbb5a964caabdd90e8074c868d8"
+          }
+        },
+        {
+          "client_id": "433063689461-v94bl4l8j75drsjp2p9dcb2t1qatqjdq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFcLV-Jr8UC2YnPZfTLukGxYK8YItTAa4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "433063689461-v94bl4l8j75drsjp2p9dcb2t1qatqjdq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

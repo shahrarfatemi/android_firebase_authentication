@@ -1,0 +1,35 @@
+1) How to sign up using Firebase Authentication
+------------------------------------------------------------------------
+
+1. create an android project
+2. design the layout for sign in and sign up activity
+3. find all the views, set the title and complete the intent
+4. - start working with signup activity
+    - get email and passowrd from the edittext and check the validity
+
+ //checking the validity of the email
+        if(email.isEmpty())
+        {
+            signUpEmailEditText.setError("Enter an email address");
+            signUpEmailEditText.requestFocus();
+            return;
+        }
+
+        if(!android.util.Patterns.EMAIL_ADDRESS.matcher(email).matches())
+        {
+            signUpEmailEditText.setError("Enter a valid email address");
+            signUpEmailEditText.requestFocus();
+            return;
+        }
+
+        //checking the validity of the password
+        if(email.isEmpty())
+        {
+            signUpPasswordEditText.setError("Enter a password");
+            signUpPasswordEditText.requestFocus();
+            return;
+        }
+
+     5.  - Connect your app to Firebase 
+     - Add Firebase Authentication to your project
+     - Listen for the authentication state
